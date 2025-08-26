@@ -12,7 +12,7 @@ const members = [
   },
   { 
     id: 2, 
-    name: "CHUEI LI YU'S", 
+    name: "LEE SANG WON'S", 
     profileImgs: [
       "images/liyu44.jpg", 
       "images/liyu45.jpg", 
@@ -33,7 +33,7 @@ const members = [
   },
   { 
     id: 4, 
-    name: "崔立于", 
+    name: "李相沅", 
     profileImgs: [
       "images/liyu32.jpg", 
       "images/liyu33.jpg"
@@ -43,17 +43,17 @@ const members = [
   },
   { 
     id: 5, 
-    name: "최립우", 
+    name: "이상원", 
     profileImgs: [
       "images/liyu35.jpg", 
       "images/liyu34.jpg"
     ], 
     detailImg: "images/liyu-pro5.jpg", 
-    bio: "BOYS II PLANET에서 슈퍼스타가 될 첫 STEP을 내딛겠습니다!" 
+    bio: "저는 늘 최선을 택하겠습니다" 
   },
   { 
     id: 6, 
-    name: "CHUEI LI YU", 
+    name: "LEE SANG WON", 
     profileImgs: [
       "images/liyu22.jpg", 
       "images/liyu23.jpg",
@@ -177,7 +177,7 @@ function App() {
     React.createElement("h1", {
       className: "text-2xl sm:text-3xl font-bold mb-6 fixed top-4 left-4 z-50",
       style: { fontFamily: "Sequel100Black, sans-serif" }
-    }, "CHUEI LI YU"),
+    }, "LEE SANG WON"),
 
     // 카드 그리드
     React.createElement(
